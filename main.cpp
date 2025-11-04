@@ -48,7 +48,7 @@ struct Tweet {
       else {
           getline(ss, tweet.text, ',');
        }
-
+    //have to handle case where last column tokens is parsed.
       tweets.push_back(tweet);
     }
     return tweets;
